@@ -14,7 +14,7 @@ const randomColor = function () {
     if (!intervalId) {
       intervalId = setInterval(changeBgColor, 1000);
     }
-  
+  //
     function changeBgColor() {
       document.body.style.backgroundColor = randomColor();
     }
